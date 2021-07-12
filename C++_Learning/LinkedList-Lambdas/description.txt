@@ -1,0 +1,9 @@
+The goal of this assignment was implementing a simple Linked List in C++ that stores ints, as well as a variation that can
+store any data type using templates, along with a set of tests to confirm correct behavior.
+Additionally, some very simple Lambda functions were implemented to get familiar with this concept, as well.
+
+The code can be found in the src/ directory, and all file names essentially speak for themselves. The constructed tests are located under src/tests/.
+The project additionally contains a Makefile, which can be executed by simply calling make.
+This will compile and execute both test files, as well as the main file.
+The latter contains a small experiment that generates 1000 random values, and inserts them into an instance of the MyLinkedList template class that is to be storing ints. Should an element already exist within the class, it is removed
+(meaning the list is essentially used as a set here). By also performing the same experiment with std::Vector<int>, it is shown that they both perform similarly in this use case.

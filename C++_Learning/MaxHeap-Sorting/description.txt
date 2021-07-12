@@ -1,0 +1,8 @@
+The goal of this assignment was implementing a MaxBinaryHeap that stores instances of std::vector<int>. In particular, the total order is defined on the sum of a vector's elements, and no duplicate vectors
+(that is, vectors with the same elements) or vectors whose sum overflowed or underflowed should not be inserted. Further, a templated version of the MaxHeap can store instances of std::vector<T> as long as T is any numerical type.
+Furthermore, three simple sorting algorithms as well as simple matrix multiplication were implemented, together with tests.
+
+The code can be found in the src/ directory, and all file names essentially speak for themselves. The implementations of the MaxHeap as well as the sorting algorithms are located in their own subdirectories of src.
+The constructed tests are located under tests/.
+The project additionally contains a Makefile, which can be executed by simply calling make.
+This will compile and execute all test files, as well as the main file, which contains a few small demos displaying the implemented functionality with examples.

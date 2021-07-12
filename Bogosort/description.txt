@@ -1,0 +1,6 @@
+A C-based implementation of the sorting algorithm Bogosort, which sorts an array by randomly replacing two elements and then checking whether it is sorted.
+Exists solely for my own amusement and because of a stupid joke with a good friend.
+(Also, the first entry in this Coding Challenges repo, for some reason.) 
+
+The implementation will read the first 12 numbers (if that many are presented) from the file input.txt, assuming each number is seperated by newlines.
+To prevent overflows, the implementation only reads the first ten digits of each number (or 9, if there is a minus sign to indicate a negative number).
